@@ -15,10 +15,10 @@
             <ul>
                 <li> Email or phone <br>
                 <input type="text" name="email"></li><!-- lists elements in unordered list in bullets-->
-                <li>Password <br> <input type="text" name="password"></li><br>
-                <li>
+                <li>Password <br> <input type="text" name="password"><br>
+                
                     <a href="#" id="forgot">Forgotten account?</a>
-                </li>
+                <br></li>
                
                 <li>
                 <input type="submit" name="Login" value="login">
@@ -26,6 +26,59 @@
             </ul>
             </form>
         </header>
-        
+        <main>
+            <div class="section">
+                <h3 id="left-section"> Facebook helps you  connect and share with people in your life </h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSrXG4Y9YbxfxTayglRD83KybcrG5SfB2k6w&usqp=CAU" alt="facebook" class="logo">
+            </div>
+            <div class="section">
+                <div id="right-section">
+                    <h1>Create an account</h1>
+                    <h3>Its quick and easy</h3>
+                </div>
+                <form method="POST" action="/">
+                <input type="text" placeholder="First Name" id="firstname" class="input-group">
+                <input type="text" placeholder="Surname" id="surname" class="input-group">
+                <br>
+                <input type="text" placeholder="Mobile or email address" class="input-group input-group-full">
+                <br>
+                <input type="text" placeholder="New password" class="input-group input-group-full">
+                    <br>
+                    <div class="sub-title">
+                        Birthday
+                    </div>
+                    <select name="" id="">
+                        <option value="0" selected>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="0" selected>Month</option>
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                          
+                    </select>
+                    <select name="" id="">
+                        <option value="0" selected>Year</option>
+                        <option value="1">2021</option>
+                        <option value="2">2020</option>
+                    </select>
+                    <div class="sub-title">
+                        Gender
+                    </div>
+                    <input type="radio" name="Sex" id="sex-f">
+                    <label for="sex-f">Female</label>
+                    <input type="radio" name="Sex" id="sex-m">
+                    <label for="sex-m">Male</label>
+                    <input type="radio" name="Sex" id="custom">
+                    <label for="sex-f">Custom</label>
+                    <div class=terms>
+                        By clicking sign up, you agree to our <a href="#">Terms</a> ,<a href="#"> data policy </a> and <a href="#">cookies policy</a> . 
+                        You can receive notifications from us and opt out at any time
+                    </div>
+                    <input type="submit" value="Sign up" id="submit">
+                </form>
+            </div> 
+        </main>
     </body>
 </html>
